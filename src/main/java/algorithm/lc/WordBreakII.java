@@ -18,17 +18,15 @@ public class WordBreakII {
       ArrayList<String> res = new ArrayList<String>();
       Stack<String> cur = new Stack<String>();
       Map<String, Boolean> cache = new HashMap<String, Boolean>();
-      found(s, dict, cur, res, cache);
+      found(s, dict, cur, res);
       return res;
     }
     
-    private void found(String s, Set<String> dict, Stack<String> cur, ArrayList<String> res, Map<String, Boolean> cache) {
+    private void found(String s, Set<String> dict, Stack<String> cur, ArrayList<String> res) {
       if (s.length() == 0) { // find a solution
         res.add(concatenate(cur));
         return;
       }
-      
-      
       
       // check concatenatable
       for (int i = 1; i <= s.length(); ++i) {
@@ -40,7 +38,7 @@ public class WordBreakII {
         
         if (dict.contains(prefix)) { // continue try the remaining part
           cur.push(prefix);
-          found(suffix, dict, cur, res, cache);
+          found(suffix, dict, cur, res);
           cur.pop();
         }
       }

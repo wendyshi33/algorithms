@@ -4,18 +4,29 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Given a string s and a dictionary of words dict, determine if s can be
+ * segmented into a space-separated sequence of one or more dictionary words.
+ * 
+ * For example, given s = "leetcode", dict = ["leet", "code"].
+ * 
+ * Return true because "leetcode" can be segmented as "leet code".
+ * 
+ */
 public class WordBreak {
-  
+
   // 2D DP, recursively divide a string into two parts to check.
   // O(n^2) space, O(n^2) time
   public class Solution {
     public boolean wordBreak(String s, Set<String> dict) {
-          // Note: The Solution object is instantiated only once and is reused by each test case.
+      // Note: The Solution object is instantiated only once and is reused by
+      // each test case.
       Map<String, Boolean> cache = new HashMap<String, Boolean>();
-      return found(s, 0, s.length(), dict, cache);     
+      return found(s, 0, s.length(), dict, cache);
     }
-    
-    private boolean found(String s, int start, int end, Set<String> dict, Map<String, Boolean> cache) {
+
+    private boolean found(String s, int start, int end, Set<String> dict,
+        Map<String, Boolean> cache) {
       if (start >= end) {
         return false;
       }
@@ -28,8 +39,7 @@ public class WordBreak {
       if (dict.contains(s.substring(start, end))) {
         cache.put(s.substring(start, end), true);
         return true;
-      }
-      else { 
+      } else {
         for (int i = start + 1; i < end; ++i) {
           if (found(s, start, i, dict, cache) && found(s, i, end, dict, cache)) {
             cache.put(s.substring(start, end), true);
