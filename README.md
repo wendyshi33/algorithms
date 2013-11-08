@@ -29,6 +29,8 @@ File Organization:
 * [quick sort iterative](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortIterative.java)
 * [quick sort recursive](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortRecursive.java)
 * [random shuffle](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/RandomShuffle.java)
+* [reverse string](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ReverseString.java)
+* [reverse words in string](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ReverseWordsInString.java)
 * [selection sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SelectionSort.java)
 * [subarray with sum zero](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SubarrayWithSumZero.java)
 * [union find](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/UnionFind.java)
