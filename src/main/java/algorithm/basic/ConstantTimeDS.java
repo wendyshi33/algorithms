@@ -12,7 +12,7 @@ import java.util.Random;
  */
 public class ConstantTimeDS {
   
-  private Map<Integer, Integer> index;
+  private Map<Integer, Integer> index; // key is the number, value is the index in array.
   private List<Integer> array;
   private int size;
   private Random rnd;
@@ -50,6 +50,7 @@ public class ConstantTimeDS {
     if (idx == null) {
       return;
     }
+    // put the last element to the place where val is deleted
     int lastVal = array.get(array.size() - 1);
     array.set(idx, lastVal);
     index.put(lastVal, idx); // update index
