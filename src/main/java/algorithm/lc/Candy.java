@@ -19,35 +19,31 @@ public class Candy {
   public class Solution {
     public int candy(int[] ratings) {
           // Note: The Solution object is instantiated only once and is reused
-      if (ratings.length == 0) {
-          return 0;
-      }
-      int min = ratings.length; 
-      int give = 0;
-      int[] candies = new int[ratings.length];
+      // scan from left to right, find the lower bound from the left
+      int[] candyArr = new int[ratings.length];
+      candyArr[0] = 1;
+      int candy = 1;
       for (int i = 1; i < ratings.length; ++i) {
         if (ratings[i] > ratings[i - 1]) {
-          ++give;
+          ++candy;
         }
         else {
-          give = 0;
+          candy = 1;
         }
-        candies[i] = give; // relative height compare with left
+        candyArr[i] = candy;
       }
       
-      give = 0;
+      int total = 0;
+      total += candyArr[candyArr.length - 1];
+      // scan from right to left, find the lower bound from the right
       for (int i = ratings.length - 2; i >= 0; --i) {
         if (ratings[i] > ratings[i + 1]) {
-          ++give;
+          candyArr[i] = Math.max(candyArr[i + 1] + 1, candyArr[i]);
         }
-        else {
-          give = 0;
-        }
-        candies[i] = Math.max(give, candies[i]); // relative height compare with right
-        min += candies[i];
+        total += candyArr[i];
       }
-      min += candies[ratings.length - 1];
-      return min;
+      
+      return total;
     }
   }
 
