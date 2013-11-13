@@ -12,6 +12,7 @@ public class InsertionSortList {
     }
   }
 
+  // O(1) space, O(n^2) time
   public class Solution {
     public ListNode insertionSortList(ListNode head) {
       // IMPORTANT: Please reset any member data you declared, as
