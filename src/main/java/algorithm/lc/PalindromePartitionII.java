@@ -37,4 +37,46 @@ public class PalindromePartitionII {
     
   };  
   
+  /**
+   * O(2^n) time. 
+   *
+   */
+  public class SolutionDFS {
+    public int minCut(String s) {
+          // IMPORTANT: Please reset any member data you declared, as
+          // the same Solution instance will be reused for each test case.
+      int[] res = new int[1];
+      res[0] = Integer.MAX_VALUE;
+      
+      int start = 0;
+      int curCut = -1;
+      cut(start, s, curCut, res);
+      return res[0];
+    }
+    
+    private void cut(int start, String s, int curCut, int[] res) {
+      if (start == s.length()) {
+        res[0] = Math.min(res[0], curCut);
+        return;
+      }
+      
+      for (int end = start; end < s.length(); ++end) {
+        if (isPalindrome(s, start, end)) {
+          cut(end + 1, s, curCut + 1, res);
+        }
+      }
+    }
+    
+    private boolean isPalindrome(String s, int start, int end) {
+      while (start < end) {
+        if (s.charAt(start) != s.charAt(end)) {
+          return false;
+        }
+        ++start;
+        --end;
+      }
+      return true;
+    }
+  }
+  
 }
