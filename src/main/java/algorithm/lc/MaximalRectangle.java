@@ -15,6 +15,8 @@ public class MaximalRectangle {
       if (matrix.length == 0 || matrix[0].length == 0) {
         return 0;
       }
+      
+      int maxArea = 0;
       // record the number of continuous 1's ends at row i column j
       int[][] continuousOnes = new int[matrix.length][matrix[0].length];
       for (int i = 0; i < matrix.length; ++i) {
@@ -25,37 +27,25 @@ public class MaximalRectangle {
             } else {
               continuousOnes[i][j] = continuousOnes[i][j - 1] + 1;
             }
-          }
-        }
-      }
-      
-      int maxArea = 0;
-      
-      for (int i = 0; i < matrix.length; ++i) {
-        for (int j = 0; j < matrix[i].length; ++j) {
-          if (continuousOnes[i][j] != 0) {
-            // find the height
             int curHeight = i;
             int minWidth = continuousOnes[i][j];
-            // look up
-            while (curHeight >= 0) {
+            while (curHeight >= 0) { // find the height of the square that use i, j as the bottom right
               if (continuousOnes[curHeight][j] == 0) {
                 break;
               }
-              else { // continue to grow
+              else { // grow up
                 minWidth = Math.min(minWidth, continuousOnes[curHeight][j]);
+                int area = (i - curHeight + 1) * minWidth;
+                maxArea = Math.max(maxArea, area);
               }
-              int area = (i - curHeight + 1) * minWidth;
-              maxArea = Math.max(maxArea, area);
               --curHeight;
             }
           }
         }
       }
-      
+
       return maxArea;
     }
-    
   }
 
 }
