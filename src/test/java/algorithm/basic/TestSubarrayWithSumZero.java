@@ -17,5 +17,6 @@ public class TestSubarrayWithSumZero {
     
     int[] arr3 = {-3, 2, -10, 5, 5};
     assertArrayEquals(new int[]{-10, 5, 5}, sum.sumZero(arr3));
+    
   }
 }

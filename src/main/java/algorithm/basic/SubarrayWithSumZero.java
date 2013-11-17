@@ -6,6 +6,7 @@ import java.util.Map;
 
 public class SubarrayWithSumZero {
   
+  // O(n) time, O(n) space
   public int[] sumZero(int[] array) {
     if (array.length == 0) {
       return new int[0];
@@ -33,5 +34,5 @@ public class SubarrayWithSumZero {
     
     return new int[0];
   }
-
+  
 }
