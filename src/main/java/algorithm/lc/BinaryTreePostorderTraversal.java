@@ -41,7 +41,7 @@ public class BinaryTreePostorderTraversal {
           if (cur.right != null) {
             stack.push(cur.right);
           }
-        } else {
+        } else { // both sub-trees have been traversed
           res.add(cur.val);
           stack.pop();
         }
