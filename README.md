@@ -22,6 +22,8 @@ File Organization:
 * [data structure that supports O(1) add, del, and getRandom](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ConstantTimeDS.java)
 * [counting sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/CountingSort.java)
 * [find the kth smallest](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/FindKth.java)
+* [get binary tree paths](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/GetBinaryTreePaths.java)
+* [Get most continuous repeated characters](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/GetMostRepeatedCharacters.java)
 * [hashmap](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/HashMap.java)
 * [find primes in range of n](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimesWithInN.java)
 * [heap sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/HeapSort.java)
