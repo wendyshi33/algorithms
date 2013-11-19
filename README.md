@@ -120,6 +120,7 @@ File Organization:
 ### [chapter 18](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/cc150/chapter18)
 
 ## [dp](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/dp)
+* [find # distinct ways to reach score](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/dp/FindScores.java)
 * [longest common substring (LCA)](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/dp/LCS.java)
 * [longest increasing subsequences (LIS)](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/dp/LongestIncreasingSubsequence.java)
 
