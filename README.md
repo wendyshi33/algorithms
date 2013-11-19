@@ -28,6 +28,7 @@ File Organization:
 * [find primes in range of n](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimesWithInN.java)
 * [heap sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/HeapSort.java)
 * [insertion sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/InsertionSort.java)
+* [merge sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MergeSort.java)
 * [quick sort iterative](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortIterative.java)
 * [quick sort recursive](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortRecursive.java)
 * [random shuffle](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/RandomShuffle.java)
