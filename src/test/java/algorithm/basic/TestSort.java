@@ -16,7 +16,8 @@ public class TestSort {
 //    testSorter(new SelectionSort());
 //    testSorter(new QuickSortRecursive());
 //    testSorter(new QuickSortIterative());
-    testSorter(new CountingSort());
+//    testSorter(new CountingSort());
+    testSorter(new MergeSort());
   }
   
   public void testSorter(Sort sorter) {
