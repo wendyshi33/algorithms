@@ -15,12 +15,11 @@ public class ClimbingStairs {
     public int climbStairs(int n) {
       // Start typing your Java solution below
       // DO NOT write main() function
-      if (n == 0) {
-        return 0;
-      } 
       int[] ways = new int[n + 1];
-      ways[0] = 1;
-      ways[1] = 1;
+      ways[0] = 1;  // 1 way to go to 0th stair
+      if (n > 0) {
+        ways[1] = 1;  // 1 way to go to 1th stair
+      }
       for (int i = 2; i < ways.length; ++i) {
         ways[i] = ways[i - 1] + ways[i - 2];
       }
