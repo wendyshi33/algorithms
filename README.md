@@ -137,4 +137,5 @@ File Organization:
 ## [recursive](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive)
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
 * [closest element in BST](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/CloestInBST.java)
-* [Generate all valid parenthesis consists of (, [, {, }, ], )](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/GenerateParenthesis.java)
+* [next palindrome](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive/NextPalindrome.java)
+* [generate all valid parenthesis consists of (, [, {, }, ], )](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/GenerateParenthesis.java)
