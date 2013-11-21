@@ -13,32 +13,33 @@ import java.util.Arrays;
 public class MultiplyStrings {
 
   public class Solution {
-    // start from the highest digit of num1, multiply each digit of num2   
     public String multiply(String num1, String num2) {
-          // Start typing your Java solution below
-          // DO NOT write main() function
-      int[] res = new int[num1.length() + num2.length()];
-      
-      for (int i = num2.length() - 1; i >= 0; --i) {
-        int carry = 0;
-        for (int j = num1.length() - 1; j >=0; --j) {
-          int tmp = carry + res[i + j + 1] + (num1.charAt(j) - '0') * (num2.charAt(i) - '0');
-          res[i + j + 1] = tmp % 10;
-          carry = tmp / 10;
-        }
-        res[i] = carry; // put carry to higher digit
-      }
-      
-      int i = 0;
-      StringBuilder sb = new StringBuilder();
-      while (i < res.length - 1 && res[i] == 0) { // remove leading 0s
-        ++i;
-      }
-      while (i < res.length) {
-        sb.append(res[i++]);
-      }
-      return sb.toString();
-    }
+          // IMPORTANT: Please reset any member data you declared, as
+          // the same Solution instance will be reused for each test case.
+     int[] res = new int[num1.length() + num2.length()];
+     
+     for (int i = num2.length() - 1; i >= 0; --i) {
+       int carry = 0;
+       for (int j = num1.length() - 1; j >= 0; --j) {
+         res[i + j + 1] += (num2.charAt(i) - '0') * (num1.charAt(j) - '0') + carry;
+         carry = res[i + j + 1] / 10;
+         res[i + j + 1] %= 10;
+       }
+       res[i] = carry; // put the last carry
+     }
+     
+     int i = 0;
+     while (i < res.length - 1 && res[i] == 0) { 
+       ++i;  // remove the leading 0's but kept the last 0
+     }
+     
+     StringBuilder sb = new StringBuilder();
+     for (int j = i; j < res.length; ++j) {
+       sb.append(res[j]);
+     }
+     
+     return sb.toString();
+   }
   }
   
 }
