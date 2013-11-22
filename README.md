@@ -14,6 +14,7 @@ File Organization:
 
 #Problem List: 
 ## [basic](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic)
+* [array calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ArrayCalculation.java)
 * [binary search](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinarySearch.java)
 * [binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinaryTree.java)
 * [binary search tree (BST)](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BST.java)
@@ -138,4 +139,5 @@ File Organization:
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
 * [closest element in BST](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/CloestInBST.java)
 * [next palindrome](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive/NextPalindrome.java)
+* [number of zero groups](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive/NumberOfZeroGroups.java)
 * [generate all valid parenthesis consists of (, [, {, }, ], )](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/GenerateParenthesis.java)
