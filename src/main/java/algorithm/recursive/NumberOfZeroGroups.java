@@ -6,6 +6,7 @@ package algorithm.recursive;
  */
 public class NumberOfZeroGroups {
   
+  // O(n^2) space, O(n^2) time
   public int numberOfZeroGroups(int[][] mat) {
     boolean[][] visit = new boolean[mat.length][mat[0].length];
     

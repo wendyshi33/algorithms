@@ -27,17 +27,13 @@ public class MedianOfTwoSortedArrays {
       }
     }
     
-    public double findKth(int[] A, int[] B, int k) {
-      return findKth(A, 0, A.length - 1, B, 0, B.length - 1, k);
-    }
-    
     // each time remove half of an array
     private double findKth(int[] A, int leftA, int rightA, int[] B, int leftB, int rightB, int k) {
       if (leftA > rightA) { // A is empty
         return B[leftB + k - 1]; // return the k - 1th in B
       }
-      else if (leftB > rightB) {
-        return A[leftA + k - 1];
+      else if (leftB > rightB) { // B is empty
+        return A[leftA + k - 1];  // return the k - 1th in A
       }
       
       int midA = (leftA + rightA) / 2;

@@ -7,6 +7,7 @@ package algorithm.dp;
  */
 public class FindScores {
 
+  // O(n) space, O(n) time, where n is the score.
   public int findScores(int n) {
     int[] ways = new int[n + 1];
     ways[0] = 1;
