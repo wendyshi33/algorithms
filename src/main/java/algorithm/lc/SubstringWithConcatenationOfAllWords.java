@@ -56,6 +56,7 @@ public class SubstringWithConcatenationOfAllWords {
           res.add(i);
         }
       }
+      
       return res;
     }
   }
