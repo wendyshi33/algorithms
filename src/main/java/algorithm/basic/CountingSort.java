@@ -1,7 +1,5 @@
 package algorithm.basic;
 
-import java.util.Arrays;
-import java.util.Random;
 
 public class CountingSort extends Sort {
 
