@@ -31,8 +31,6 @@ File Organization:
 * [insertion sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/InsertionSort.java)
 * [median of stream](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MedianOfStream.java)
 * [merge sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MergeSort.java)
-* [quick sort iterative](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortIterative.java)
-* [quick sort recursive](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortRecursive.java)
 * [prime factors](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimeFactors.java)
 * [prime within range n](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimeWithInN.java)
 * [quicksort iterative](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortIterative.java)
