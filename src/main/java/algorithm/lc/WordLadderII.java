@@ -3,7 +3,6 @@ package algorithm.lc;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -27,130 +26,77 @@ import java.util.List;
 // it is too hard to pass the large case for java
 public class WordLadderII {
 
+  /**
+   * BFS remove discovered words from Dict
+   */
   public static class Solution {
-    public static ArrayList<ArrayList<String>> findLadders(String start, String end, HashSet<String> dict) {
+    public ArrayList<ArrayList<String>> findLadders(String start, String end, HashSet<String> dict) {
       // Start typing your Java solution below
       // DO NOT write main() function
-      HashMap<String, HashSet<String>> neighbours = new HashMap<String, HashSet<String>>();
-      dict.add(start);
+      ArrayList<ArrayList<String>> results = new ArrayList<ArrayList<String>>();
+      // record all paths, key: the end of the path; value: the path
+      HashMap<String, ArrayList<ArrayList<String>>> records = new HashMap<String, ArrayList<ArrayList<String>>>();
+      ArrayList<String> iniList = new ArrayList<String>();
+      iniList.add(start);
+      ArrayList<ArrayList<String>> iniLists = new ArrayList<ArrayList<String>>();
+      iniLists.add(iniList);
+      records.put(start, iniLists);
+      HashMap<String, ArrayList<ArrayList<String>>> newRecords = new HashMap<String, ArrayList<ArrayList<String>>>();
       dict.add(end);
 
-      // init adjacent graph
-      for (String str : dict) {
-        calcNeighbours(neighbours, str, dict);
+      while (records.size() > 0 && dict.size() > 0) {
+        HashSet<String> toBeRemoved = new HashSet<String>();
+        for (String cur : records.keySet()) {
+          HashSet<String> nextLadder = nextLadderWord(cur, dict);
+          ArrayList<ArrayList<String>> curLists = records.get(cur);
+          updateIndex(newRecords, nextLadder, curLists);
+          toBeRemoved.addAll(nextLadder);
+        }
+        dict.removeAll(toBeRemoved);
+        records = newRecords;
+        newRecords = new HashMap<String, ArrayList<ArrayList<String>>>();
+        if (records.containsKey(end)) {
+          return records.get(end);
+        }
       }
+      
+      return results;
+    }
 
-      ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
-      // BFS search queue
-      LinkedList<Node> queue = new LinkedList<Node>();
-      queue.add(new Node(null, start, 1));
-
-      // BFS level
-      int previousLevel = 0;
-
-      // mark which nodes have been visited, to break infinite loop
-      HashMap<String, Integer> visited = new HashMap<String, Integer>();
-      while (!queue.isEmpty()) {
-        Node n = queue.pollFirst();
-        if (end.equals(n.str)) {
-          // fine one path, check its length, if longer than previous path it's
-          // valid
-          // otherwise all possible short path have been found, should stop
-          if (previousLevel == 0 || n.level == previousLevel) {
-            previousLevel = n.level;
-            findPath(n, result);
+    public void updateIndex(HashMap<String, ArrayList<ArrayList<String>>> newRecords, HashSet<String> nextLadder, ArrayList<ArrayList<String>> curLists) {
+      for (String s : nextLadder) {
+        for (ArrayList<String> curList : curLists) {
+          ArrayList<String> path = new ArrayList<String>(curList);
+          path.add(s);
+          if (newRecords.containsKey(s)) {
+            newRecords.get(s).add(path);
           } else {
-            // all path with length *previousLevel* have been found
-            break;
-          }
-        } else {
-          HashSet<String> set = neighbours.get(n.str);
-          if (set == null || set.isEmpty())
-            continue;
-          // note: I'm not using simple for(String s: set) here. This is to
-          // avoid hashset's
-          // current modification exception.
-          ArrayList<String> toRemove = new ArrayList<String>();
-          for (String s : set) {
-            // if s has been visited before at a smaller level, there is already
-            // a shorter
-            // path from start to s thus we should ignore s so as to break
-            // infinite loop; if
-            // on the same level, we still need to put it into queue.
-            if (visited.containsKey(s)) {
-              Integer occurLevel = visited.get(s);
-              if (n.level + 1 > occurLevel) {
-                neighbours.get(s).remove(n.str);
-                toRemove.add(s);
-                continue;
-              }
-            }
-            visited.put(s, n.level + 1);
-            queue.add(new Node(n, s, n.level + 1));
-            if (neighbours.containsKey(s))
-              neighbours.get(s).remove(n.str);
-          }
-          for (String s : toRemove) {
-            set.remove(s);
+            ArrayList<ArrayList<String>> paths = new ArrayList<ArrayList<String>>();
+            paths.add(path);
+            newRecords.put(s, paths);
           }
         }
       }
-
-      return result;
     }
 
-    public static void findPath(Node n, ArrayList<ArrayList<String>> result) {
-      ArrayList<String> path = new ArrayList<String>();
-      Node p = n;
-      while (p != null) {
-        path.add(0, p.str);
-        p = p.parent;
-      }
-      result.add(path);
-    }
-
-    /*
-     * complexity: O(26*str.length*dict.size)=O(L*N)
-     */
-    private static void calcNeighbours(HashMap<String, HashSet<String>> neighbours,
-        String str, HashSet<String> dict) {
-      int length = str.length();
-      char[] chars = str.toCharArray();
-      for (int i = 0; i < length; i++) {
-        char old = chars[i];
+    public HashSet<String> nextLadderWord(String str, HashSet<String> dict) {
+      HashSet<String> nextL = new HashSet<String>();
+      for (int i = 0; i < str.length(); i++) {
+        char curLetter = str.charAt(i);
         for (char c = 'a'; c <= 'z'; c++) {
-          if (c == old)
-            continue;
-          chars[i] = c;
-          String newstr = new String(chars);
-
-          if (dict.contains(newstr)) {
-            HashSet<String> set = neighbours.get(str);
-            if (set != null) {
-              set.add(newstr);
-            } else {
-              HashSet<String> newset = new HashSet<String>();
-              newset.add(newstr);
-              neighbours.put(str, newset);
+          char[] tmp = str.toCharArray();
+          if (curLetter != c) {
+            tmp[i] = c;
+            String tmpStr = new String(tmp);
+            if (dict.contains(tmpStr)) {
+              nextL.add(tmpStr);
             }
           }
         }
-        chars[i] = old;
       }
+      return nextL;
     }
-
-    private static class Node {
-      public Node parent;
-      public String str;
-      public int level;
-
-      public Node(Node p, String s, int l) {
-        parent = p;
-        str = s;
-        level = l;
-      }
-    }
-
+    
   }
   
   public static void main(String[] args) {
@@ -164,7 +110,10 @@ public class WordLadderII {
     for (String s : d3) {
       dict.add(s);
     }
-    result = Solution.findLadders(start, end, dict);
+    
+    Solution sol = new Solution();
+    
+    result = sol.findLadders(start, end, dict);
     for (ArrayList<String> ary : result) {
       System.out.println(ary.toString());
       System.out.println(ary.size());
@@ -177,7 +126,7 @@ public class WordLadderII {
     for (String s : d4) {
       dict.add(s);
     }
-    result = Solution.findLadders(start, end, dict);
+    result = sol.findLadders(start, end, dict);
     for (ArrayList<String> ary : result) {
       System.out.println(ary.toString());
       System.out.println(ary.size());
@@ -304,7 +253,7 @@ public class WordLadderII {
       dict.add(s);
     }
 
-    result = Solution.findLadders(start, end, dict);
+    result = sol.findLadders(start, end, dict);
     for (ArrayList<String> ary : result) {
       System.out.println(ary.toString());
       System.out.println(ary.size());
@@ -969,7 +918,7 @@ public class WordLadderII {
     for (String s : d2) {
       dict.add(s);
     }
-    result = Solution.findLadders(start, end, dict);
+    result = sol.findLadders(start, end, dict);
     for (ArrayList<String> ary : result) {
       System.out.println(ary.toString());
       System.out.println(ary.size());
