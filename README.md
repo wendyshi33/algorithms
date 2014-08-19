@@ -161,6 +161,8 @@ File Organization:
 * [Add Binary](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddBinary.java)
 * [Add Two Numbers](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddTwoNumbers.java)
 * Anagram ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/anagram.py))
+* Binary Tree Inorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/inorder.py))
+* Binary Tree Preorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/preorder.py))
 
 ## [recursive](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive)
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
