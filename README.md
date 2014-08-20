@@ -167,6 +167,7 @@ File Organization:
 * Reverse Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/reverse_int.py))
 * Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/same_tree.py))
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/single_number.py))
+* Best Time to Buy and Sell Stock 2 ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/stock2.py))
 
 ## [recursive](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive)
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
