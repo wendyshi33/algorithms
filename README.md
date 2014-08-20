@@ -158,8 +158,8 @@ File Organization:
 * [LCA of binary search tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/imagong/LCAofBST.java)
 
 ## lc ([java](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/lc)) ([python](https://github.com/yxjiang/algorithms/tree/master/src/main/python/lc/))
-* Add Binary([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddBinary.java))
-* Add Two Numbers([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddTwoNumbers.java))
+* Add Binary ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddBinary.java))
+* Add Two Numbers ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddTwoNumbers.java))
 * Anagram ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/anagram.py))
 * Search Insert Position ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/find_insert_position.py))
 * Binary Tree Inorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/inorder.py))
