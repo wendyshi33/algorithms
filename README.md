@@ -169,6 +169,7 @@ File Organization:
 * Unique Binary Search Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/num_trees.py))
 * Populating Next Right Point in Each Node ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree.py))
 * Populating Next Right Point in Each Node II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree2.py))
+* Remove Duplicate from List ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_duplicate_from_list.py))
 * Reverse Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/reverse_int.py))
 * Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/same_tree.py))
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number.py))
