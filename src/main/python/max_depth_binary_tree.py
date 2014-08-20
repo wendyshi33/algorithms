@@ -12,4 +12,4 @@ class Solution:
         if root is None:
             return 0
         else:
-            return 1 + max(maxDepth(root.left), maxDepth(root.right))
+            return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
