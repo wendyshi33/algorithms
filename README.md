@@ -157,7 +157,7 @@ File Organization:
 * [generate reverse polish](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/imagong/GenerateReversePolish.java)
 * [LCA of binary search tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/imagong/LCAofBST.java)
 
-## [lc]([java](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/lc))([python](https://github.com/yxjiang/algorithms/tree/master/src/main/python/lc/))
+## [lc] [java](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/lc) [python](https://github.com/yxjiang/algorithms/tree/master/src/main/python/lc/)
 * Add Binary([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddBinary.java))
 * Add Two Numbers([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddTwoNumbers.java))
 * Anagram ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/anagram.py))
