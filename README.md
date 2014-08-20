@@ -164,6 +164,7 @@ File Organization:
 * Binary Tree Inorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/inorder.py))
 * Binary Tree Preorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/preorder.py))
 * Max Depth of Binary Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/max_depth_binary_tree.py))
+* Reverse Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/reverse_int.py))
 * Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/same_tree.py))
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/single_number.py))
 
