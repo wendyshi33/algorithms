@@ -163,6 +163,9 @@ File Organization:
 * Anagram ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/anagram.py))
 * Binary Tree Inorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/inorder.py))
 * Binary Tree Preorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/preorder.py))
+* Max Depth of Binary Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/max_depth_binary_tree.py))
+* Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/same_tree.py))
+* Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/single_number.py))
 
 ## [recursive](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive)
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
