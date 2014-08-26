@@ -17,6 +17,7 @@ File Organization:
 * [array calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ArrayCalculation.java)
 * [binary search](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinarySearch.java)
 * [binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinaryTree.java)
+* [binary tree inorder iterator](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinaryTreeInorderIterator.java)
 * [binary search tree (BST)](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BST.java)
 * [+-*/ expression calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ExpressionCalculate.java)
 * [bubble sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BubbleSort.java)
