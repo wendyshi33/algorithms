@@ -1,0 +1,48 @@
+package algorithm.basic;
+
+import java.util.*;
+
+
+/*
+ *	Binary tree in-order iterator.
+ *	
+ *	Space cost: O(logN) in average.I
+ *	Time cost: O(logN) in average.
+ *
+ */
+public class BinaryTreeInorderIterator {
+
+ 	public static class Node {
+  	int val;
+  	Node left;
+  	Node right;
+  
+  	public Node(int val) {
+    	this.val = val;
+  	}
+	}
+ 
+  private Stack<Node> stack;
+  
+  public BinaryTreeInorderIterator(Node node) {
+    this.stack = new Stack<Node>();
+    this.addNodes(node);
+  }
+  
+  private void addNodes(Node node) {
+    Node cur = node;
+    while (cur != null) {
+      this.stack.push(cur);
+      cur = cur.left;
+    }
+  }
+  
+  public Node next() {
+    if (stack.isEmpty()) {
+      return null;
+    }
+    Node cur = stack.pop();
+    this.addNodes(cur.right);
+    return cur;
+  }
+}
