@@ -26,6 +26,7 @@ File Organization:
 * [Circular Buffer](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/CircularBuffer.java)
 * [data structure that supports O(1) add, del, and getRandom](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ConstantTimeDS.java)
 * [counting sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/CountingSort.java)
+* [Deduplicate](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/Deduplicate.java)
 * [find the kth smallest](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/FindKth.java)
 * [get binary tree paths](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/GetBinaryTreePaths.java)
 * [get most continuous repeated characters](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/GetMostRepeatedCharacters.java)
