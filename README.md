@@ -23,6 +23,7 @@ File Organization:
 * [+-*/ expression calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ExpressionCalculate.java)
 * [bubble sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BubbleSort.java)
 * [Burrows Wheeler Transform](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BurrowsWheelerTransform.java)
+* [Circular Buffer](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/CircularBuffer.java)
 * [data structure that supports O(1) add, del, and getRandom](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ConstantTimeDS.java)
 * [counting sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/CountingSort.java)
 * [find the kth smallest](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/FindKth.java)
