@@ -47,6 +47,7 @@ File Organization:
 * [selection sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SelectionSort.java)
 * [stack with min](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/StackWithMin.java)
 * [strcmp](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/Strcmp.java)
+* [subarray sum](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SubarraySum.java)
 * [subarray with sum zero](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SubarrayWithSumZero.java)
 * [union find](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/UnionFind.java)
 * [union of two sorted linked list](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/UnionOfSortedLinkedList.java)
