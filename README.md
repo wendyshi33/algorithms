@@ -30,7 +30,7 @@ File Organization:
 * [find the kth smallest](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/FindKth.java)
 * [get binary tree paths](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/GetBinaryTreePaths.java)
 * [get most continuous repeated characters](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/GetMostRepeatedCharacters.java)
-* [hashmap](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/HashMap.java)
+* [hashmap](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/OpenAddressHashMap.java)
 * [find primes in range of n](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimesWithInN.java)
 * [heap sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/HeapSort.java)
 * [insertion sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/InsertionSort.java)
