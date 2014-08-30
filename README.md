@@ -37,6 +37,7 @@ File Organization:
 * [median of stream](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MedianOfStream.java)
 * [merge sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MergeSort.java)
 * [most repeated number](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MostRepeatedNumber.java)
+* [one edit distance](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/OneDistance.java)
 * [prime factors](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimeFactors.java)
 * [prime within range n](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimesWithInN.java)
 * [quicksort iterative](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortIterative.java)
@@ -183,6 +184,7 @@ File Organization:
 * Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/same_tree.py))
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number.py))
 * Best Time to Buy and Sell Stock 2 ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/stock2.py))
+* Sort Color ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/sort_color.py))
 
 ## [recursive](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive)
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
