@@ -45,6 +45,7 @@ File Organization:
 * [quicksort recursive](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/QuickSortRecursive.java)
 * [random shuffle](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/RandomShuffle.java)
 * [read4K](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/Read4K.java)
+* [remove zeros from array](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/RemoveZerosFromArray.java)
 * [reverse string](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ReverseString.java)
 * [reverse words in string](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ReverseWordsInString.java)
 * [selection sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SelectionSort.java)
