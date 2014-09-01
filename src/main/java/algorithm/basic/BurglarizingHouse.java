@@ -17,8 +17,7 @@ public class BurglarizingHouse {
 		} else if (values[n] != -1) {
 			return values[n];
 		} else {
-			values[n] = Math.max(best(houses, values, n - 1), 
-									best(houses, values, n - 2) + houses[n]);
+			values[n] = Math.max(best(houses, values, n - 1), best(houses, values, n - 2) + houses[n]);
 			return values[n];
 		} 
 	}
