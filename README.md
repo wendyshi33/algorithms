@@ -54,6 +54,7 @@ File Organization:
 * [strcmp](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/Strcmp.java)
 * [subarray sum](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SubarraySum.java)
 * [subarray with sum zero](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/SubarrayWithSumZero.java)
+* [trie](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/Trie.java)
 * [union find](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/UnionFind.java)
 * [union of two sorted linked list](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/UnionOfSortedLinkedList.java)
 
