@@ -198,3 +198,6 @@ File Organization:
 * [next palindrome](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive/NextPalindrome.java)
 * [number of zero groups](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive/NumberOfZeroGroups.java)
 * [generate all valid parenthesis consists of (, [, {, }, ], )](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/GenerateParenthesis.java)
+
+## [google](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/google)
+* [max distance in array](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/google/MaxDistanceInArray.java)
