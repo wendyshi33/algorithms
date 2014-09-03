@@ -35,6 +35,7 @@ File Organization:
 * [find primes in range of n](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/PrimesWithInN.java)
 * [heap sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/HeapSort.java)
 * [insertion sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/InsertionSort.java)
+* [find largest square submatrix](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/LargestSquareInMatrix.java)
 * [find max with random position](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MaxWithRandomPosition.java)
 * [median of stream](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MedianOfStream.java)
 * [merge sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/MergeSort.java)
