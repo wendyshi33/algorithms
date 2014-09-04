@@ -188,7 +188,7 @@ File Organization:
 * Populating Next Right Point in Each Node II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree2.py))
 * Regular Expression Matching ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RegularExpressionMatching.java)) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/regular_expression_match.py))
 * Remove Duplicate from List ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_duplicate_from_list.py))
-* Remove Element (https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_element.py) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RemoveElement.java))
+* Remove Element  ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_element.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RemoveElement.java))
 * Reverse Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/reverse_int.py))
 * Roman to Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/roman_to_int.py))
 * Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/same_tree.py))
