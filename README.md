@@ -202,6 +202,7 @@ File Organization:
 * Best Time to Buy and Sell Stock 2 ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/stock2.py))
 * Single Number II ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SingleNumberII.java) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number_2.py))
 * Sort Color ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/sort_color.py))
+* Swap Nodes in Pairs ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/swap_nodes_in_pairs.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SwapNodesInPairs.java))
 
 ## [recursive](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive)
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
