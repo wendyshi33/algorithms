@@ -194,6 +194,8 @@ File Organization:
 * Populating Next Right Point in Each Node II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree2.py))
 * Regular Expression Matching ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RegularExpressionMatching.java)) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/regular_expression_match.py))
 * Remove Duplicate from List ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_duplicate_from_list.py))
+* Remove Duplicates from Sorted Array ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_duplicates_from_sorted_array.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RemoveDuplicatesFromSortedArray.java))
+* Remove Duplicates from Sorted Array II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_duplicates_from_sorted_array_2.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RemoveDuplicatesFromSortedArrayII.java))
 * Remove Element  ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/remove_element.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RemoveElement.java))
 * Reverse Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/reverse_int.py))
 * Roman to Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/roman_to_int.py))
