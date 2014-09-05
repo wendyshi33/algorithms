@@ -174,6 +174,7 @@ File Organization:
 * Add Binary ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddBinary.java))
 * Add Two Numbers ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/AddTwoNumbers.java))
 * Anagram ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/anagram.py))
+* Balanced Binary Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/balanced_binary_tree.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/BalancedBinaryTree.java))
 * Search Insert Position ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/find_insert_position.py))
 * Climb Stairs ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/climb_stairs.py))
 * Container with Most Water ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/ContainerWithMostWater.java)) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/container_with_most_water.py))
