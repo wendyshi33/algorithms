@@ -6,7 +6,7 @@ class Solution:
       return 0
     new_len = 1 
     for i in range(1, len(A)):
-      if A[i] != A[i - 1]:
+      if A[i] != A[new_len - 1]:
         A[new_len] = A[i]
         new_len += 1
     return new_len
