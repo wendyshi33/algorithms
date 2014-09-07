@@ -192,6 +192,7 @@ File Organization:
 * Unique Binary Search Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/num_trees.py))
 * Pascal Triangle ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/pascal_triangle.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/PascalTriangle.java))
 * Pascal Triangle II ([python](https://github.com/yxjiang/algorithms/tree/master/src/main/python/lc/pascal_triangle_2.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/PascalTriangleII.java))
+* Plus One ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/plus_one.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/PlusOne.java))
 * Populating Next Right Point in Each Node ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree.py))
 * Populating Next Right Point in Each Node II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree2.py))
 * Regular Expression Matching ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RegularExpressionMatching.java)) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/regular_expression_match.py))
