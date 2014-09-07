@@ -190,6 +190,7 @@ File Organization:
 * N-Queens ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/N_queens.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/NQueens.java))
 * N-Queens II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/N_queens_2.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/NQueensII.java))
 * Unique Binary Search Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/num_trees.py))
+* Pascal Triangle ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/pascal_triangle.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/PascalTriangle.java))
 * Populating Next Right Point in Each Node ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree.py))
 * Populating Next Right Point in Each Node II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/populate_tree2.py))
 * Regular Expression Matching ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RegularExpressionMatching.java)) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/regular_expression_match.py))
