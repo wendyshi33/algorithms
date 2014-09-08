@@ -184,6 +184,7 @@ File Organization:
 * Int to Roman ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/int_to_roman.py))
 * Linked List Cycle ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/list_cycle.py))
 * Binary Tree Preorder ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/preorder.py))
+* Generate Parentheses ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/generate_parentheses.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/GenerateParenthesis.java))
 * Max Depth of Binary Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/max_depth_binary_tree.py))
 * Maximum Subarray ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/maximum_subarray.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MaximumSubArray.java))
 * Merge Two Sorted Lists ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/merge_two_sorted_list.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MergeTwoSortedLists.java))
