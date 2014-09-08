@@ -10,3 +10,9 @@ class Solution:
 				matrix[len(matrix) - 1 - start][layer] = matrix[len(matrix) - 1 - layer][len(matrix) - 1 - start]
 				matrix[len(matrix) - 1 - layer][len(matrix) - 1 - start] = matrix[start][len(matrix) - 1 - layer]
 				matrix[start][len(matrix) - 1 - layer] = tmp
+
+if __name__ == '__main__':
+	s = Solution()
+	m = [[1]]
+	s.rotate(m)
+	print(m)
