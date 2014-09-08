@@ -205,6 +205,7 @@ File Organization:
 * Reverse Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/reverse_int.py))
 * Roman to Int ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/roman_to_int.py))
 * Rotate Image ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/rotate_image.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RotateImage.java))
+* Rotate List ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/rotate_list.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/RotateList.java))
 * Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/same_tree.py))
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number.py))
 * Best Time to Buy and Sell Stock 2 ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/stock2.py))
