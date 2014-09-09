@@ -8,7 +8,7 @@ package algorithm.lc;
  * 
  */
 // O(1) space, O(n^2) time
-public class Solution {
+public class RotateImage {
   public void rotate(int[][] matrix) {
     for (int layer = 0; layer < matrix.length / 2; ++layer) {
       int start = layer;
