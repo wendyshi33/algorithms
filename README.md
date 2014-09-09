@@ -210,7 +210,8 @@ File Organization:
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number.py))
 * Best Time to Buy and Sell Stock 2 ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/stock2.py))
 * Single Number II ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SingleNumberII.java) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number_2.py))
-* Sort Color ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/sort_color.py))
+* Sort Color ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/sort_color.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SortColors.java))
+* Spiral Matrix ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/spiral_matrix.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SpiralMatrix.java))
 * Swap Nodes in Pairs ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/swap_nodes_in_pairs.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SwapNodesInPairs.java))
 * Symmetric Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/symmetric_tree.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SymmetricTree.java))
 
