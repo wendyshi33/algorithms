@@ -12,9 +12,9 @@ class Solution:
         if r == 0 and c == 0:
           mat[r][c] = 1 if obstacleGrid[r][c] == 0 else 0
         elif r == 0:
-          mat[r][c] = 1 if obstacleGrid[r][c - 1] == 0 else 0
+          mat[r][c] = mat[r][c - 1] if obstacleGrid[r][c] == 0 else 0
         elif c == 0:
-          mat[r][c] = 1 if obstacleGrid[r - 1][c] == 0 else 0
+          mat[r][c] = mat[r - 1][c] if obstacleGrid[r][c] == 0 else 0
         elif obstacleGrid[r][c] == 1:
           mat[r][c] = 0
         else:
