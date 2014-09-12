@@ -17,9 +17,9 @@ public class SearchA2DMatrix {
 				if (matrix[r][c] == target) {
 					return true;
 				} else if (matrix[r][c] < target) {
-					--c;
+					++r;;
 				} else {
-					++r;
+					--c;
 				}
 			}
 			return false;
