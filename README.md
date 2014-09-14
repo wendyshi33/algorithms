@@ -220,6 +220,7 @@ File Organization:
 * Same Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/same_tree.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SameTree.java))
 * Search A 2D Matrix ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/search_a_2d_matrix.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SearchA2DMatrix.java))
 * Search Insert Position ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/find_insert_position.py))
+* Set Matrix Zeros ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/set_matrix_zeros.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SetMatrixZeroes.java))
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SingleNumber.java))
 * Single Number II ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SingleNumberII.java) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number_2.py))
 * Sort Color ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/sort_color.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SortColors.java))
