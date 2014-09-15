@@ -8,106 +8,59 @@ import java.util.Random;
  */
 public class SortList {
 
-  static class ListNode {
-    int val;
-    ListNode next;
+	static class ListNode {
+		int val;
+		ListNode next;
 
-    ListNode(int x) {
-      val = x;
-      next = null;
-    }
-  }
+		ListNode(int x) {
+			val = x;
+			next = null;
+		}
+	}
 
-  public static class Solution {
-    
-    static class HeadTail {
-      ListNode head;
-      ListNode tail;
-      
-      public HeadTail(ListNode head, ListNode tail) {
-        this.head = head;
-        this.tail = tail;
-      }
-    }
-    
-    public ListNode sortList(ListNode head) {
-      // IMPORTANT: Please reset any member data you declared, as
-      // the same Solution instance will be reused for each test case.
-      if (head == null || head.next == null) { // list with less than 2 elements
-        return head;
-      }
-      ListNode tail = head;
-      while (tail.next != null) {
-        tail = tail.next;
-      }
-      HeadTail headTail = sort(head, tail);
-      return headTail.head;
-    }
-    
-    private HeadTail sort(ListNode head, ListNode tail) {
-      if (head == tail) {
-        tail.next = null;
-        HeadTail headTail = new HeadTail(head, tail);
-        return headTail;
-      }
-      
-      // divide the list into two parts
-      ListNode slow = head;
-      ListNode fast = head.next;
-      
-      while (fast != tail) {
-        fast = fast.next;
-        if (fast != tail) {
-          fast = fast.next;
-          slow = slow.next;
-        }
-      }
-      
-      // sort respectively
-      ListNode rightHead = slow.next;
-      HeadTail leftSorted = sort(head, slow);
-      HeadTail rightSorted = sort(rightHead, tail);
-      
-      // merge
-      ListNode fakeHead = new ListNode(0);
-      ListNode cur = fakeHead;
-      ListNode left = leftSorted.head;
-      ListNode right = rightSorted.head;
-      
-      while (left != null || right != null) {
-        if (left == null) {
-          cur.next = right;
-          right = right.next;
-        }
-        else if (right == null) {
-          cur.next = left;
-          left = left.next;
-        }
-        else if (left.val <= right.val) {
-          cur.next = left;
-          left = left.next;
-        }
-        else {
-          cur.next = right;
-          right = right.next;
-        }
-        cur = cur.next;
-      }
-      
-      return new HeadTail(fakeHead.next, cur);
-    }
-    
-  }
-  
-  public static void printList(ListNode head) {
-    StringBuilder sb = new StringBuilder();
-    while (head != null) {
-      sb.append(head.val);
-      sb.append(' ');
-      head = head.next;
-    }
-    sb.append('\n');
-    System.out.println(sb.toString());
-  }
+	public class Solution {
+		public ListNode sortList(ListNode head) {
+			if (head == null || head.next == null) {
+				return head;
+			}   
+			ListNode slow = head;
+			ListNode fast = head;
+			while (fast.next != null && fast.next.next != null) {
+				slow = slow.next;
+				fast = fast.next.next;
+			}
+
+			fast = slow.next;
+			slow.next = null;
+			ListNode firstHalf = sortList(head);
+			ListNode secondHalf = sortList(fast);
+			return merge(firstHalf, secondHalf);
+		}
+
+		public ListNode merge(ListNode first, ListNode second) {
+			ListNode newHead = new ListNode(0);
+			ListNode cur = newHead;
+			while (first != null || second != null) {
+				if (first == null) {
+					cur.next = second;
+					second = second.next;
+				} else if (second == null) {
+					cur.next = first;
+					first = first.next;
+				} else {
+					if (first.val <= second.val) {
+						cur.next = first;
+						first = first.next;
+					} else {
+						cur.next = second;
+						second = second.next;
+					}
+				}
+				cur = cur.next;
+			}    
+
+			return newHead.next;
+		}
+	}
 
 }
