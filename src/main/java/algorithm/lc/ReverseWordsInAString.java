@@ -14,17 +14,13 @@ public class ReverseWordsInAString {
       StringBuilder sb = new StringBuilder();
       String[] tokens = s.split(" ");
       for (int i = tokens.length - 1; i >= 0; --i) {
-        if (tokens[i] != null && tokens[i].length() > 0) {
+        if (tokens[i].length() > 0) {
           sb.append(tokens[i]);
           sb.append(" ");
         }
       }
 
-      if (sb.length() == 0) {
-        return "";
-      }
-
-      return sb.substring(0, sb.length() - 1);
+      return sb.toString().trim();
     }
   }
 
