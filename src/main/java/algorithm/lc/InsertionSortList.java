@@ -20,7 +20,6 @@ public class InsertionSortList {
 			}
 			ListNode newHead = new ListNode(0);
 			newHead.next = head;
-			ListNode sortedHead = head;
 			ListNode remainingHead = head.next; 
 			head.next = null;
 
