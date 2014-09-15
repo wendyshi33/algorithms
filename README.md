@@ -225,6 +225,7 @@ File Organization:
 * Single Number ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SingleNumber.java))
 * Single Number II ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SingleNumberII.java) ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/single_number_2.py))
 * Sort Color ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/sort_color.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SortColors.java))
+* Sort List ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/sort_list.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SortList.java))
 * Spiral Matrix ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/spiral_matrix.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SpiralMatrix.java))
 * Spiral Matrix II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/spiral_matrix_2.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SpiralMatrixII.java))
 * Swap Nodes in Pairs ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/swap_nodes_in_pairs.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/SwapNodesInPairs.java))
