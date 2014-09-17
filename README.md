@@ -249,3 +249,4 @@ File Organization:
 
 ## [linkedin](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin)
 * [upside down binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/UpsideDownBinaryTree.java)
+* [nested list weighted sum](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/NestedIntWeightedSum.java)
