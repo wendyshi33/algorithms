@@ -16,7 +16,12 @@ class Solution:
 		total += candies[len(candies) - 1]
 		for i in range(len(ratings) - 2, -1, -1):
 			if ratings[i] > ratings[i + 1]:
-				candies[i] = min(candies[i + 1] + 1, candies[i])
+				candies[i] = max(candies[i + 1] + 1, candies[i])
 			total += candies[i]
 
 		return total
+
+if __name__ == '__main__':
+	s = Solution()
+	ratings = [2, 1]
+	print(s.candy(ratings))
