@@ -193,6 +193,7 @@ File Organization:
 * Integer to Roman ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/int_to_roman.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/IntegerToRoman.java))
 * Insertion Sort List ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/insertion_sort_list.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/InsertionSortList.java))
 * Linked List Cycle ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/list_cycle.py))
+* Longest Consecutive Sequence ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/longest_consecutive_sequence.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/LongestConsecutiveSequence.java))
 * Max Depth of Binary Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/max_depth_binary_tree.py))
 * Maximum Subarray ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/maximum_subarray.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MaximumSubArray.java))
 * Merge Two Sorted Lists ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/merge_two_sorted_list.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MergeTwoSortedLists.java))
