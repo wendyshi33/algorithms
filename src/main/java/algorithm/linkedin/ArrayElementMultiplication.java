@@ -2,10 +2,10 @@ package algorithm.basic;
 
 /**
  * Given an array A[0, n - 1], generate another array B such that 
- * B[i] = A[0] * ... * A[i - 1] * ... * A[n - 1].
+ * B[i] = A[0] * ... * A[i - 1] *  A[i + 1] * ... * A[n - 1].
  * 
  */
-public class ArrayCalculation {
+public class ArrayElementMultiplication {
   
   // O(n) space, O(n) time
   public int[] arrayCalculation(int[] A) {
