@@ -201,6 +201,7 @@ File Organization:
 * N-Queens ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/N_queens.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/NQueens.java))
 * N-Queens II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/N_queens_2.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/NQueensII.java))
 * Number of Unique Binary Search Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/num_trees.py))
+* Palindrome Partition ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/palindrome_partition.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/PalindromePartition.java))
 * Pascal Triangle ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/pascal_triangle.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/PascalTriangle.java))
 * Pascal Triangle II ([python](https://github.com/yxjiang/algorithms/tree/master/src/main/python/lc/pascal_triangle_2.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/PascalTriangleII.java))
 * Permutation ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/permutations.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/Permutations.java))
