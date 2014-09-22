@@ -14,7 +14,6 @@ File Organization:
 
 #Problem List: 
 ## [basic](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic)
-* [array calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ArrayCalculation.java)
 * [binary search](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinarySearch.java)
 * [binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinaryTree.java)
 * [binary tree inorder iterator](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BinaryTreeInorderIterator.java)
@@ -254,6 +253,7 @@ File Organization:
 
 
 ## [linkedin](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin)
+* [array element multiplication](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ArrayCalculation.java)
 * [upside down binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/UpsideDownBinaryTree.java)
 * [nested list weighted sum](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/NestedIntWeightedSum.java)
 * [depth of string representation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/DepthOfStringRepresentation.java)
