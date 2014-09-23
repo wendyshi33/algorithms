@@ -201,6 +201,7 @@ File Organization:
 * Max Depth of Binary Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/max_depth_binary_tree.py))
 * Maximum Subarray ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/maximum_subarray.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MaximumSubArray.java))
 * Merge Two Sorted Lists ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/merge_two_sorted_list.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MergeTwoSortedLists.java))
+* Minimum Depth of Binary Tree ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/minimum_depth_of_binary_tree.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MinimumDepthOfBinaryTree.java))
 * Minimum Path Sum ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/minimum_path_sum.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/MinimumPathSum.java))
 * Next Permutation ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/next_permutation.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/NextPermutation.java))
 * N-Queens ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/N_queens.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/NQueens.java))
