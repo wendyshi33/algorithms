@@ -21,7 +21,6 @@ File Organization:
 * [binary search tree (BST)](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BST.java)
 * [+-*/ expression calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ExpressionCalculate.java)
 * [bubble sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BubbleSort.java)
-* [burglarizing house](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BurglarizingHouse.java)
 * [Burrows Wheeler Transform](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/BurrowsWheelerTransform.java)
 * [circular buffer](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/CircularBuffer.java)
 * [data structure that supports O(1) add, del, and getRandom](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ConstantTimeDS.java)
@@ -277,3 +276,5 @@ File Organization:
 * [nested list weighted sum](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/NestedIntWeightedSum.java)
 * [depth of string representation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/DepthOfStringRepresentation.java)
 
+## [airbnb](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/airbnb)
+* [burglarizing house](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/airbnb/BurglarizingHouse.java)
