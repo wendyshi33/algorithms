@@ -3,7 +3,7 @@ package algorithm.basic;
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
-public class TestArrayCalculation {
+public class TestArrayElementMultiplication {
   
   @Test
   public void testArrayCalculation() {
