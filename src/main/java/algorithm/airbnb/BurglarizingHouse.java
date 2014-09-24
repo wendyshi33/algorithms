@@ -12,7 +12,7 @@ import java.util.*;
  */
 public class BurglarizingHouse {
 
-	public int bestValue(int[] houses) {
+	public int bestValueRecursive(int[] houses) {
 		int[] values = new int[houses.length];		
 		Arrays.fill(values, -1);
 
@@ -28,6 +28,18 @@ public class BurglarizingHouse {
 			values[n] = Math.max(best(houses, values, n - 1), best(houses, values, n - 2) + houses[n]);
 			return values[n];
 		} 
+	}
+
+	public int bestValue(int[] houses) {
+		int[] values = new int[houses.length];      
+		values[0] = houses[0];
+		if (houses.length >= 2) {
+			values[1] = Math.max(values[0], houses[1]);
+		}
+		for (int i = 2; i < houses.length; ++i) {
+			values[i] = Math.max(values[i - 2] + houses[i], values[i - 1]);
+		}
+		return values[houses.length - 1];
 	}
 
 }
