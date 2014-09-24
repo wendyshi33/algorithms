@@ -251,6 +251,7 @@ File Organization:
 * Triangle ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/triangle.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/Triangle.java))
 * Unique Paths ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/unique_path.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/UniquePaths.java))
 * Unique Paths II ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/unique_path_2.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/UniquePathsII.java))
+* Validate BST ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/valid_bst.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/ValidateBinarySearchTree.java))
 * Valid Palindrome ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/valid_palindrome.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/ValidPalindrome.java))
 * Word Break ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/word_break.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/WordBreak.java))
 
