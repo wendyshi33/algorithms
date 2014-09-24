@@ -1,4 +1,4 @@
-package algorithm.basic;
+package algorithm.airbnb;
 
 import java.util.*;
 
