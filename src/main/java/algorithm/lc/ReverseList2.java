@@ -8,47 +8,54 @@ package algorithm.lc;
  * 
  * Note: Given m, n satisfy the following condition: 1 ? m ? n ? length of list.
  * 
- * 
+ *	Time complexity: O(N), space complexity O(1). 
  */
 public class ReverseList2 {
 
-  public static class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-      val = x;
-      next = null;
-    }
-  }
+	public static class ListNode {
+		int val;
+		ListNode next;
+		ListNode(int x) {
+			val = x;
+			next = null;
+		}
+	}
+	/**
+	 * Definition for singly-linked list.
+	 * public class ListNode {
+	 *     int val;
+	 *     ListNode next;
+	 *     ListNode(int x) {
+	 *         val = x;
+	 *         next = null;
+	 *     }
+	 * }
+	 */
+	public class Solution {
+		public ListNode reverseBetween(ListNode head, int m, int n) {
+			ListNode fakeHead = new ListNode(0);
+			fakeHead.next = head;
+			int len = n - m;
+			ListNode before = fakeHead;
+			for (int i = 0; i < m - 1; ++i) {
+				before = before.next;
+			}
+			ListNode pre = null;
+			ListNode reversedTail = before.next;
+			ListNode cur = before.next;
+			before.next = null;
+			for (int i = 0; i <= n - m; ++i) {
+				ListNode next = cur.next;
+				cur.next = pre;
+				pre = cur;
+				cur = next;
+			}
 
-  public static class Solution {
-    public ListNode reverseBetween(ListNode head, int m, int n) {
-      // Start typing your Java solution below
-      // DO NOT write main() function
-      int len = n - m;
-      ListNode fakeHead = new ListNode(0);
-      fakeHead.next = head;
-      ListNode prev = fakeHead;
-      for (int i = 0; i < m - 1; ++i) {
-        prev = prev.next;
-      }
-      
-      ListNode before = prev;
-      ListNode reverseHead = prev.next;
-      ListNode cur = reverseHead;
-      
-      int count = 0;
-      while (count++ <= len) {
-        ListNode next = cur.next;
-        cur.next = prev;
-        prev = cur;
-        cur = next;
-      }
-      reverseHead.next = cur;
-      before.next = prev;
+			reversedTail.next = cur;  // link the tail of the second half to the head of the third half
+			before.next = pre;    // link the tail of first half to the head of the second half
 
-      return fakeHead.next;
-    }
-  }
+			return fakeHead.next;
+		}
+	}
 
 }
