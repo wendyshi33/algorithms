@@ -262,6 +262,7 @@ File Organization:
 * Validate BST ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/valid_bst.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/ValidateBinarySearchTree.java))
 * Valid Palindrome ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/valid_palindrome.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/ValidPalindrome.java))
 * Word Break ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/word_break.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/WordBreak.java))
+* Word Search ([python](https://github.com/yxjiang/algorithms/blob/master/src/main/python/lc/word_search.py)) ([java](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lc/WordSearch.java))
 
 ## [recursive](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive)
 * [lowest common ancestor](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/LowestCommonAncestor.java)
