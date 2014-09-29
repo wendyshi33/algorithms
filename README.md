@@ -271,7 +271,7 @@ File Organization:
 * [number of zero groups](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/recursive/NumberOfZeroGroups.java)
 * [generate all valid parenthesis consists of (, [, {, }, ], )](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/GenerateParenthesis.java)
 
-## [google](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/google)
+## [guge](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/google)
 * [max distance in array](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/google/MaxDistanceInArray.java)
 * [find anagram in dict](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/google/FindAnagramInDict.java)
 * [find right deepest in binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/google/RightDeepestLeaf.java)
@@ -279,13 +279,13 @@ File Organization:
 * [power of 3](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/google/PowerOfThree.java)
 
 
-## [linkedin](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin)
+## [lingying](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin)
 * [array element multiplication](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ArrayCalculation.java)
 * [upside down binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/UpsideDownBinaryTree.java)
 * [nested list weighted sum](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/NestedIntWeightedSum.java)
 * [depth of string representation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/linkedin/DepthOfStringRepresentation.java)
 
-## [airbnb](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/airbnb)
+## [qichuangzaocan](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/airbnb)
 * [burglarizing house](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/airbnb/BurglarizingHouse.java)
 * [coin change](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/airbnb/CoinChange.java)
 * [upper/lowercase permutation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/airbnb/LowerUpperCasePermutation.java)
