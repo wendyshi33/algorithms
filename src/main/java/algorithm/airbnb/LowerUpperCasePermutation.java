@@ -29,10 +29,9 @@ public class LowerUpperCasePermutation {
       // current character is upper case
       generate(chars, pos + 1, res);
       // current character is lower case
-			int diff = 'a' - 'A';
-      chars[pos] = (char)(chars[pos] + diff);
+      chars[pos] = Character.toLowerCase(chars[pos]);
       generate(chars, pos + 1, res);
-      chars[pos] = (char)(chars[pos] - diff);
+      chars[pos] = Character.toUpperCase(chars[pos]);
     }
   }
   
