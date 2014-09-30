@@ -54,7 +54,7 @@ public class ConstantTimeDS {
     int lastVal = array.get(array.size() - 1);
     array.set(idx, lastVal);
     index.put(lastVal, idx); // update index
-    index.remove(val); // remove deleted val from array
+    index.remove(size - 1); // remove deleted val from array
     --size;
   }
   
