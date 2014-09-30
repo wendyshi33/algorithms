@@ -291,4 +291,5 @@ File Organization:
 * [K Edit Distance](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/qichuangzaocan/KEditDistance.java)
 
 ## [tuding](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding)
+* [maximal subsection](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding/MaxSubsection.java)
 * [print matrix diagonal](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding/PrintDiagonal.java)
