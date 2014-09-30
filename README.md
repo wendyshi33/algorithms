@@ -289,3 +289,6 @@ File Organization:
 * [coin change](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/qichuangzaocan/CoinChange.java)
 * [upper/lowercase permutation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/qichuangzaocan/LowerUpperCasePermutation.java)
 * [K Edit Distance](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/qichuangzaocan/KEditDistance.java)
+
+## [tuding](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding)
+* [print matrix diagonal](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding/PrintDiagonal.java)
