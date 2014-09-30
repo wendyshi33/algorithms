@@ -293,3 +293,4 @@ File Organization:
 ## [tuding](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding)
 * [maximal subsection](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding/MaxSubsection.java)
 * [print matrix diagonal](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding/PrintDiagonal.java)
+* [weighted random sampling](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/tuding/WeightedRandomSampling.java)
