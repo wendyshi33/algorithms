@@ -21,8 +21,8 @@ public class Question11 {
     int n = 0;
     do {
       // each number appear with probability 4%
-      n = 5 * rand5() + rand5() + 1;
-    } while (n > 21);
+      n = 5 * rand5() + rand5();
+    } while (n > 20);
     // data in range [1, 21]
     return n % 7;
   }
