@@ -24,33 +24,31 @@ public class ThreeSum {
       // Start typing your Java solution below
       // DO NOT write main() function
       Arrays.sort(num);
-      ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+      List<List<Integer>> res = new ArrayList<ArrayList<Integer>>();
       for (int i = 0; i < num.length - 2; ++i) {
         int j = i + 1;
         int k = num.length - 1;
         while (j < k) {
           int sum = num[i] + num[j] + num[k];
           if (sum == 0) {
-            ArrayList<Integer> solution = new ArrayList<Integer>();
+            List<Integer> solution = new ArrayList<Integer>();
             solution.add(num[i]);
             solution.add(num[j]);
             solution.add(num[k]);
             res.add(solution);
-            ++j;
-            --k;
-            while (j < k && num[j - 1] == num[j]) {
+            do {
               ++j;
-            }
-            while (j < k && num[k + 1] == num[k]) {
+            } while (j < k && num[j - 1] == num[j]);
+            do {
               --k;
-            }
+            } while (j < k && num[k + 1] == num[k]);
           } else if (sum < 0) {
             ++j;
           } else if (sum > 0) {
             --k;
           }
         }
-        while (i < k && num[i] == num[i + 1]) {
+        while (i < num.length - 2 && num[i] == num[i + 1]) {
           ++i;
         }
       }
