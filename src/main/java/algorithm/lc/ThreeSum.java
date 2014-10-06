@@ -1,7 +1,6 @@
 package algorithm.lc;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * Given an array S of n integers, are there elements a, b, c in S such that a +
@@ -20,11 +19,11 @@ public class ThreeSum {
 
   public class Solution {
     // two pointers,
-    public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
+    public List<List<Integer>> threeSum(int[] num) {
       // Start typing your Java solution below
       // DO NOT write main() function
       Arrays.sort(num);
-      List<List<Integer>> res = new ArrayList<ArrayList<Integer>>();
+      List<List<Integer>> res = new ArrayList<List<Integer>>();
       for (int i = 0; i < num.length - 2; ++i) {
         int j = i + 1;
         int k = num.length - 1;

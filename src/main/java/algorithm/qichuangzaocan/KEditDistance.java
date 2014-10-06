@@ -1,4 +1,4 @@
-package algorithm.airbnb;
+package algorithm.qichuangzaocan;
 
 import java.util.*;
 

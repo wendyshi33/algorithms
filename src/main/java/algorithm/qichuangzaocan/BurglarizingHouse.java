@@ -1,4 +1,4 @@
-package algorithm.airbnb;
+package algorithm.qichuangzaocan;
 
 import java.util.*;
 
@@ -12,34 +12,29 @@ import java.util.*;
  */
 public class BurglarizingHouse {
 
-	public int bestValueRecursive(int[] houses) {
-		int[] values = new int[houses.length];		
-		Arrays.fill(values, -1);
+  public List<Integer> bestValue(int[] houses) {
+    List<Integer> index = new ArrayList<Integer>();
+    int[] values = new int[houses.length];      
+    
+    for (int i = 0; i < houses.length; ++i) {
+      int robCur = houses[i] + (i >= 2? values[i - 2] : 0);
+      int noRobCur = i >= 1? values[i - 1] : 0;
+      if (robCur >= noRobCur) {
+        index.add(i);
+        values[i] = robCur;
+      } else {
+        values[i] = noRobCur; 
+      }
+    }
 
-		return best(houses, values, houses.length - 1);
-	}
+    for (int i = index.size() - 1; i > 0; --i) {
+      if (index.get(i - 1) == index.get(i) - 1) {
+        index.remove(i - 1);
+        --i;
+      } 
+    }
 
-	private int best(int[] houses, int[] values, int n) {
-		if (n <= 0) {
-			return 0;
-		} else if (values[n] != -1) {
-			return values[n];
-		} else {
-			values[n] = Math.max(best(houses, values, n - 1), best(houses, values, n - 2) + houses[n]);
-			return values[n];
-		} 
-	}
-
-	public int bestValue(int[] houses) {
-		int[] values = new int[houses.length];      
-		values[0] = houses[0];
-		if (houses.length >= 2) {
-			values[1] = Math.max(values[0], houses[1]);
-		}
-		for (int i = 2; i < houses.length; ++i) {
-			values[i] = Math.max(values[i - 2] + houses[i], values[i - 1]);
-		}
-		return values[houses.length - 1];
-	}
+    return index;
+  }
 
 }
