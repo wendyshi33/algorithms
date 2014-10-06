@@ -1,4 +1,4 @@
-package algorithm.google;
+package algorithm.guge;
 
 /**
  *	Given an int array A[], define: distance=A[i]+A[j]+(j-i), j>=i. Find max 

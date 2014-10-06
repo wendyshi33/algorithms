@@ -1,4 +1,4 @@
-package algorithm.google;
+package algorithm.guge;
 
 /**
  * Calculate the arithmetic expression contains positive numbers,  + and -.

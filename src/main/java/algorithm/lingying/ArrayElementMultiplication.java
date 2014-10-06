@@ -1,4 +1,4 @@
-package algorithm.basic;
+package algorithm.lingying;
 
 /**
  * Given an array A[0, n - 1], generate another array B such that 

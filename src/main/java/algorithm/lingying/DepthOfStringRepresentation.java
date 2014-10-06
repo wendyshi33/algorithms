@@ -1,4 +1,4 @@
-package algorithm.linkedin;
+package algorithm.lingying;
 
 /**
  * Consider this string representation for binary trees. Each node is of the form (lr), 

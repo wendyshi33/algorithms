@@ -1,4 +1,4 @@
-package algorithm.google;
+package algorithm.guge;
 
 /**
  *	Check whether a number is power of 3.

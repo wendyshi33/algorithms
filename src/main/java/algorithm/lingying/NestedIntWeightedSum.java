@@ -1,4 +1,4 @@
-package algorithm.linkedin;
+package algorithm.lingying;
 
 import java.util.*;
 

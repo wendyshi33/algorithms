@@ -1,4 +1,4 @@
-package algorithm.recursive;
+package algorithm.lingying;
 
 /**
  * Given a binary tree where all the right nodes are leaves.

@@ -1,4 +1,4 @@
-package algorithm.google;
+package algorithm.guge;
 
 import java.util.*;
 
