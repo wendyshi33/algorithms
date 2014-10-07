@@ -97,9 +97,9 @@ public class BST {
     return false;
   }
   
-  public void delete(TreeNode node) {
+  public void delete(int key) {
     // assume the node is in the tree
-    delete(root, node);
+    delete(root, key);
   }
   
   private TreeNode getMinNode(TreeNode node) {
@@ -120,7 +120,7 @@ public class BST {
     }
   }
 
-  public void delete(TreeNode node, int key) {
+  public TreeNode delete(TreeNode node, int key) {
     if (node.val == key) {
       if (node.left == null) {
         node = node.right;
@@ -136,6 +136,7 @@ public class BST {
     } else {
       node.left = delete(node.left, key);
     }
+    return node;
   }
   
   public class TreeIterator implements Iterator<TreeNode> {
