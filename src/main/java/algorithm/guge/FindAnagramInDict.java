@@ -11,7 +11,7 @@ public class FindAnagramInDict {
     List<String> res = new ArrayList<String>();
     char[] anagram = target.toCharArray();
     Arrays.sort(anagram);
-    
+
     for (String str : pool) {
       if (anagram.length == str.length()) {
         char[] ana = str.toCharArray();
