@@ -29,20 +29,15 @@ public class BST {
     }
   }
   
-  private void insertHelper(TreeNode node, int val) {
-    if (val <= node.val) {
-      if (node.left == null) {
-        node.left = new TreeNode(val);
-      } else {
-        insertHelper(node.left, val);
-      }
+  private TreeNode insertHelper(TreeNode node, int val) {
+    if (node == null) {
+      return new TreeNode(val);
+    } else if (node.val < val) {
+      node.right = insertHelper(node.right, val);
     } else {
-      if (node.right == null) {
-        node.right = new TreeNode(val);
-      } else {
-        insertHelper(node.right, val);
-      }
+      node.left = insertHelper(node.left, val);
     }
+    return node;
   }
   
   public int size() {
