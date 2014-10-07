@@ -12,37 +12,37 @@ import java.util.*;
  */
 public class BinaryTreeInorderIterator {
 
- 	public static class Node {
-  	int val;
-  	Node left;
-  	Node right;
-  
-  	public Node(int val) {
-    	this.val = val;
-  	}
-	}
- 
-  private Stack<Node> stack;
-  
-  public BinaryTreeInorderIterator(Node node) {
-    this.stack = new Stack<Node>();
-    this.addNodes(node);
-  }
-  
-  private void addNodes(Node node) {
-    Node cur = node;
-    while (cur != null) {
-      this.stack.push(cur);
-      cur = cur.left;
+  public static class Node {
+    int val;
+    Node left;
+    Node right;
+
+    public Node(int val) {
+      this.val = val;
     }
   }
-  
+
+  private Stack<Node> stack;
+
+  public BinaryTreeInorderIterator(Node node) {
+    this.stack = new Stack<Node>();
+    Node cur = root;
+    while (cur != null) {
+      this.stack.push(node);
+      node = node.left;
+    }
+  }
+
   public Node next() {
     if (stack.isEmpty()) {
       return null;
     }
     Node cur = stack.pop();
-    this.addNodes(cur.right);
+    Node node = cur.right;
+    while (node != null) {
+      this.stack.push(node);
+      node = node.left;
+    }
     return cur;
   }
 }
