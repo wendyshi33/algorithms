@@ -26,7 +26,7 @@ public class BinaryTreeInorderIterator {
 
   public BinaryTreeInorderIterator(Node node) {
     this.stack = new Stack<Node>();
-    Node cur = root;
+    Node cur = node;
     while (cur != null) {
       this.stack.push(node);
       node = node.left;

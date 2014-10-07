@@ -290,6 +290,7 @@ File Organization:
 * [find right deepest in binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/RightDeepestLeaf.java)
 * [plus minus expression calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/PlusMinusCalculation.java)
 * [power of 3](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/PowerOfThree.java)
+* [two dimensional trapping rain water](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/TwoDTrappingRainWater.java)
 
 ## [lingying](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/lingying)
 * [array element multiplication](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/basic/ArrayCalculation.java)
