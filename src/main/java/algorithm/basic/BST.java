@@ -24,8 +24,7 @@ public class BST {
   public void insert(int val) {
     if (root == null) {
       root = new TreeNode(val);
-    }
-    else {
+    } else {
       insertHelper(root, val);
     }
   }
@@ -34,16 +33,13 @@ public class BST {
     if (val <= node.val) {
       if (node.left == null) {
         node.left = new TreeNode(val);
-      }
-      else {
+      } else {
         insertHelper(node.left, val);
       }
-    }
-    else {
+    } else {
       if (node.right == null) {
         node.right = new TreeNode(val);
-      }
-      else {
+      } else {
         insertHelper(node.right, val);
       }
     }
@@ -111,74 +107,40 @@ public class BST {
     delete(root, node);
   }
   
-  private TreeNode getParent(TreeNode node) {
-    if (node == root) {
-      return null;
-    }
-    
-    TreeNode cur = root;
-    while (cur != null) {
-      if (cur.left == node || cur.right == node) {
-        return cur;
-      }
-      else if (cur.val <= node.val){
-        cur = cur.right;
-      }
-      else {
-        cur = cur.left;
-      }
-    }
-    // node not in the tree
-    return null;
-  }
-  
-  private TreeNode getRightSmallestNode(TreeNode node) {
+  private TreeNode getMinNode(TreeNode node) {
     TreeNode cur = node;
     while (cur.left != null) {
-      if (cur.left != null) {
-        cur = cur.left;
-      }
+      cur = cur.left;
     }
-    
+
     return cur;
   }
-  
-  public void delete(TreeNode root, TreeNode node) {
-    if (node == null) {
-      return;
+
+  private TreeNode deleteMin(TreeNode node) {
+    if (node.left == null) {
+      return node.right;
+    } else {
+      node.left = deleteMin(node.left);
+      return node;
     }
-    
-    TreeNode parent = getParent(node);
-    if (node.left == null && node.right == null) {
-      if (parent.left == node) {
-        parent.left = null;
-      }
-      else {
-        parent.right = null;
-      }
+  }
+
+  public void delete(TreeNode node, int key) {
+    if (node.val == key) {
+      if (node.left == null) {
+        node = node.right;
+      } else if (node.right == null) {
+        node = node.left;
+      } 
+      TreeNode tmp = node;
+      node = getMinNode(node.right);
+      node.right = deleteMin(tmp.right);
+      node.left = tmp.left;
+    } else if (node.val < key) {
+      node.right = delete(node.right, key);
+    } else {
+      node.left = delete(node.left, key);
     }
-    else if (node.left == null) {
-      if (parent.left == node) {
-        parent.left = node.right;
-      }
-      else {
-        parent.right = node.right;
-      }
-    }
-    else if (node.right == null) {
-      if (parent.left == node) {
-        parent.left = node.left;
-      }
-      else {
-        parent.right = node.left;
-      }
-    }
-    else {
-      TreeNode rightSmallest = getRightSmallestNode(node);
-      node.val = rightSmallest.val;
-      delete(rightSmallest);
-    }
-    
   }
   
   public class TreeIterator implements Iterator<TreeNode> {
