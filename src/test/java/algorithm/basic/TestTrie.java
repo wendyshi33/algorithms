@@ -14,6 +14,7 @@ public class TestTrie {
 		assertEquals(0, trie.find("ab"));
 		trie.insert(str1);
 		assertEquals(2, trie.find(str1));
+
 		String str2 = "absd";
 		trie.insert(str2);
 		assertEquals(1, trie.find(str2));
