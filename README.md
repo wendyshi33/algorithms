@@ -290,6 +290,8 @@ File Organization:
 * [find right deepest in binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/RightDeepestLeaf.java)
 * [plus minus expression calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/PlusMinusCalculation.java)
 * [power of 3](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/PowerOfThree.java)
+* [satisfied pairs](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/SatisfiedPairs.java)
+* [satisfied triples](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/SatisfiedTriples.java)
 * [two dimensional trapping rain water](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/TwoDTrappingRainWater.java)
 * [weird sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/WeirdSort.java)
 
