@@ -285,7 +285,7 @@ File Organization:
 * [generate all valid parenthesis consists of (, [, {, }, ], )](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/recursive/GenerateParenthesis.java)
 
 ## [gongxiangzuche](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/gongxiangzuche)
-* [best time to buy and sell](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/BestTimeToBuyAndSell.java)
+* [best time to buy and sell](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/gongxiangzuche/BestTimeToBuyAndSell.java)
 
 ## [guge](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/guge)
 * [max distance in array](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/guge/MaxDistanceInArray.java)
