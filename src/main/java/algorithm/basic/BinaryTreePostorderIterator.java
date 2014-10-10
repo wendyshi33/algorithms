@@ -2,7 +2,7 @@ package algorithm.basic;
 
 import java.util.*;
 
-public class BinaryTreePostorderIterator{
+public class BinaryTreePostorderIterator {
   
   public static class Node {
     int val;
@@ -15,35 +15,45 @@ public class BinaryTreePostorderIterator{
   }
   
   private Stack<Node> stack;
+  private Node current;
   
   public BinaryTreePostorderIterator(Node node) {
-    this.stack = new Stack<Node>();
-    if (node != null) {
-      this.addNodes(node);
-    }
-  }
-  
-  private void addNodes(Node node) {
+    stack = new Stack<Node>();
     Node cur = node;
-    while (cur != null) {
-      this.stack.push(cur);
-      if (cur.left != null) {
-        cur = cur.left;
+    while (node != null) {
+      stack.push(node);
+      if (node.left != null) {
+        node = node.left;
       } else {
-        cur = cur.right;
+        node = node.right;
       }
     }
   }
-  
+
+  public boolean hasNext() {
+    return !stack.isEmpty();
+  }
+   
   public Node next() {
-    if (stack.isEmpty()) {
-      return null;
+    Node node = stack.pop();
+    Node ret = node;
+
+    if (!stack.isEmpty()) {
+      Node prev = stack.peek();
+      if (prev.left == node) { // current is left child
+        node = prev.right;
+        while (node != null) {
+          stack.push(node);
+          if (node.left != null) {
+            node = node.left;
+          } else {
+            node = node.right;
+          }
+        }
+      }
     }
-    Node cur = stack.pop();
-    if (!stack.isEmpty() && stack.peek().left == cur && stack.peek().right != null) {
-      this.addNodes(stack.peek().right);
-    }
-    return cur;
+
+    return ret;
   }
   
 }

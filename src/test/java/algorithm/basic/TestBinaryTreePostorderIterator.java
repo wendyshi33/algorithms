@@ -30,6 +30,25 @@ public class TestBinaryTreePostorderIterator {
 		assertEquals(2, itr.next().val);
 		assertEquals(0, itr.next().val);
 
+		BinaryTreePostorderIterator.Node zero = new BinaryTreePostorderIterator.Node(0);
+		BinaryTreePostorderIterator.Node one = new BinaryTreePostorderIterator.Node(1);
+		BinaryTreePostorderIterator.Node two = new BinaryTreePostorderIterator.Node(2);
+		BinaryTreePostorderIterator.Node three = new BinaryTreePostorderIterator.Node(3);
+		BinaryTreePostorderIterator.Node four = new BinaryTreePostorderIterator.Node(4);
+		BinaryTreePostorderIterator.Node five = new BinaryTreePostorderIterator.Node(5);
+
+    zero.left = one;
+    zero.right = two;
+    one.left = three;
+    one.right = four;
+    two.right = five;
+    itr = new BinaryTreePostorderIterator(zero);
+    assertEquals(3, itr.next().val);
+    assertEquals(4, itr.next().val);
+    assertEquals(1, itr.next().val);
+    assertEquals(5, itr.next().val);
+    assertEquals(2, itr.next().val);
+    assertEquals(0, itr.next().val);
 	}	
 
 }
