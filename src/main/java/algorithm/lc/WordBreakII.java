@@ -10,69 +10,52 @@ import java.util.Stack;
 
 public class WordBreakII {
   
-  // O(1) space (cache not used yet), O(2^n) time, Time Limited Exceed
-  // Recursive solution
-  public static class Solution {
-    public ArrayList<String> wordBreak(String s, Set<String> dict) {
-          // Note: The Solution object is instantiated only once and is reused by each test case.
-      ArrayList<String> res = new ArrayList<String>();
-      Stack<String> cur = new Stack<String>();
-      Map<String, Boolean> cache = new HashMap<String, Boolean>();
-      found(s, dict, cur, res);
+  /**
+   * Given a string s and a dictionary of words dict, add spaces in s to construct a sentence where each word is a valid dictionary word.
+   *
+   * Return all such possible sentences.
+   *
+   * For example, given
+   * s = "catsanddog",
+   * dict = ["cat", "cats", "and", "sand", "dog"].
+   * 
+   * A solution is ["cats and dog", "cat sand dog"].
+   *
+   * Time complexity:     Space complexity: O(N).
+   *
+   */
+  public class Solution {
+    public List<String> wordBreak(String s, Set<String> dict) {
+      List<String> res = new ArrayList<String>();
+      StringBuilder cur = new StringBuilder();
+      boolean[] cache = new boolean[s.length() + 1];
+      Arrays.fill(cache, true);
+      int start = 0;
+      check(s, start, dict, cache, cur, res);
       return res;
     }
-    
-    private void found(String s, Set<String> dict, Stack<String> cur, ArrayList<String> res) {
-      if (s.length() == 0) { // find a solution
-        res.add(concatenate(cur));
-        return;
-      }
-      
-      // check concatenatable
-      for (int i = 1; i <= s.length(); ++i) {
-        String prefix = s.substring(0, i);
-        String suffix = "";
-        if (i < s.length()) {
-          suffix = s.substring(i);
-        }
-        
-        if (dict.contains(prefix)) { // continue try the remaining part
-          cur.push(prefix);
-          found(suffix, dict, cur, res);
-          cur.pop();
+
+    private void check(String s, int start, Set<String> dict, boolean[] cache, StringBuilder cur, List<String> res) {
+      if (start == s.length()) { // success
+        res.add(cur.toString().trim());
+      } else {
+        for (int i = start; i < s.length(); ++i) {
+          String curStr = s.substring(start, i + 1);
+          if (dict.contains(curStr) && cache[i + 1]) { // cur string can be found
+            int oldLen = cur.length();
+            int oldResSize = res.size();
+            cur.append(curStr + " ");
+            check(s, i + 1, dict, cache, cur, res);
+            cur.setLength(oldLen);
+            if (res.size() == oldResSize) { // current decomposition is invalid
+              cache[i + 1] = false;     
+            }
+          }
         }
       }
+
     }
-    
-    private String concatenate(Stack<String> cur) {
-      StringBuilder sb = new StringBuilder();
-      if (cur.size() == 0) {
-        return sb.toString();
-      }
-      Iterator<String> itr = cur.iterator();
-      sb.append(itr.next());
-      while (itr.hasNext()) {
-        sb.append(" ");
-        sb.append(itr.next());
-      }
-      return sb.toString();
-    }
-  }
-  
-  public static void main(String[] args) {
-    Solution sol = new Solution();
-    String s = "catsanddog";
-    Set<String> dict = new HashSet<String>();
-    dict.add("cat");
-    dict.add("cats");
-    dict.add("and");
-    dict.add("sand");
-    dict.add("dog");
-    
-    ArrayList<String> res = sol.wordBreak(s, dict);
-    for (String str : res) {
-      System.out.println(str);
-    }
-  }
+
+  }  
 
 }
