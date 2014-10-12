@@ -2,6 +2,7 @@ package algorithm.guge;
 
 /**
  *	Check whether a number is power of 3.
+ *	Time complexity: O(log_9 N)
  *	
  */
 public class PowerOfThree {
@@ -11,19 +12,10 @@ public class PowerOfThree {
       return true;
     }
 
-    do {
-      if (num % 3 != 0) {
-        return false;
-      }
-      int sum = 0;
-      int tmp = num;
-      while (tmp > 0) {
-        sum += tmp % 10;
-        tmp /= 10;	
-      }
-      num = sum / 3;
-    } while (num != 1); 
+    while (num % 9 == 0) {
+      num /= 9;
+    }
 
-    return true;
+    return num == 1 || num == 3;
   }
 }

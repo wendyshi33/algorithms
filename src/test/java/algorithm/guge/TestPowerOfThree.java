@@ -10,7 +10,7 @@ public class TestPowerOfThree {
 		PowerOfThree power = new PowerOfThree();
 
 		assertTrue(power.isPowerOfThree(0));
-		assertTrue(!power.isPowerOfThree(1));
+		assertTrue(power.isPowerOfThree(1));
 		assertTrue(!power.isPowerOfThree(2));
 		assertTrue(power.isPowerOfThree(3));
 		assertTrue(!power.isPowerOfThree(4));
@@ -21,7 +21,9 @@ public class TestPowerOfThree {
 		assertTrue(power.isPowerOfThree(9));
 		assertTrue(!power.isPowerOfThree(10));
 		assertTrue(!power.isPowerOfThree(11));
-		
+    assertTrue(!power.isPowerOfThree(18));
+    assertTrue(!power.isPowerOfThree(21));
+    assertTrue(!power.isPowerOfThree(24));
 		assertTrue(power.isPowerOfThree(27));
 		assertTrue(!power.isPowerOfThree(28));
 		assertTrue(!power.isPowerOfThree(29));
