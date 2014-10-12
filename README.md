@@ -291,6 +291,7 @@ File Organization:
 * [max distance in array](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/guge/MaxDistanceInArray.java)
 * [most repeated key in BST](https://github.com/yxjiang/algorithms/tree/master/src/main/java/algorithm/guge/MostRepeatedKeyInBST.java)
 * [find anagram in dict](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/FindAnagramInDict.java)
+* [find first missing](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/FindFirstMissing.java)
 * [find right deepest in binary tree](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/RightDeepestLeaf.java)
 * [plus minus expression calculation](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/PlusMinusCalculation.java)
 * [power of 3](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/PowerOfThree.java)
