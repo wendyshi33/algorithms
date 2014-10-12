@@ -297,6 +297,7 @@ File Organization:
 * [power of 3](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/PowerOfThree.java)
 * [satisfied pairs](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/SatisfiedPairs.java)
 * [satisfied triples](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/SatisfiedTriples.java)
+* [substring anagram](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/SubstrAnagram.java)
 * [two dimensional trapping rain water](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/TwoDTrappingRainWater.java)
 * [weird sort](https://github.com/yxjiang/algorithms/blob/master/src/main/java/algorithm/guge/WeirdSort.java)
 
